@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-df = pd.read_csv('/content/swiggy.csv')
+df = pd.read_csv('swiggy.csv')
 st.set_page_config(page_title='Swiggy Dashboard', layout='wide')
 st.title('Swiggy Dashboard')
 
